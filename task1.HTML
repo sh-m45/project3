@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+            .locationtop{
+                width: 100%;
+            }
+            .word{
+                width: 100%;
+            }
+        }
+       
+       .divcoffe{
+            float: left ;
+            
+        }
+        .cofeee{
+            float: left ;
+            width: 60px;
+            height: 55px;
+            margin-right: 8px;
+            margin-left: 55px;
+        }
+        .divul{
+            float: right;
+        }
+        .divul ul{
+           margin-left: 480px ;
+           padding-top: 15px;
+          
+        }
+        .divul ul li{
+            display: inline;
+            padding-right: 25px ;
+            font-size: 20px ;
+            font-weight: 500;
+            font-family: alegreya sans;
+        }
+        .clr {
+            clear: both;
+        }
+        .title{
+            float: left;
+            font-size: 25px ;
+            font-weight: 600;
+            font-family: alegreya sans;
+            padding-top: 15px;
+            
+            
+        }
+        .navbar{
+            position: fixed;
+            z-index: 9999999;
+            width: 1349px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .start {
+            background-image: url("cof.jpg");
+            background-repeat: no-repeat;
+            color: white;
+            background-size: 100% 100%;
+            width: 1349px;
+            height: 700px;
+            text-align: center;
+            font-family: alegreya sans;
+
+        }
+
+        .hh {
+            margin: auto;
+            padding-top: 230px;
+            padding-bottom: 20px;
+           
+        }
+
+        h5,
+        h1 {
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 60px
+        }
+
+        h5 {
+            font-size: 25px;
+        }
+
+        .but {
+            background-color: #ca9c75;
+            width: 150px;
+            height: 50px;
+            border-radius: 5px;
+            border-style: solid;
+            margin: 7px;
+            border-color: #ca9c75;
+            color: #f7f5f4;
+            font-weight: bold;
+        }
+
+        .butt {
+            background-color: rgba(0, 0, 0, 0.1);
+            width: 150px;
+            height: 50px;
+            border-radius: 5px;
+            border-style: solid;
+            margin: 8px;
+            border-color: #f7f5f4;
+            color: #f7f5f4;
+            font-weight: bold;
+        }
+
+        .but:hover {
+            background-color: #f7f5f4;
+            border-color: #f7f5f4;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .butt:hover {
+            background-color: #f7f5f4;
+            border-color: #f7f5f4;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .coffeeimg {
+            position: relative;
+            float: left;
+            height: 570px;
+            width: 600px;
+            margin-right: 70px;
+            margin-left: 50px;
+            margin-top: 100px;
+            background-color: teal;
+
+        }
+
+        .contentimg {
+            height: 570px;
+            width: 600px;
+
+        }
+
+        .right {
+            float: left;
+            width: 500px;
+            height: 500px;
+            margin-top: 150px;
+            font-family: alegreya sans;
+        }
+
+        .leaf {
+            width: 50px;
+            height: 50px;
+            border-radius: 30px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #ccc9c9;
+            padding: 8px;
+        }
+
+        .group {
+            width: 50px;
+            height: 50px;
+            border-radius: 30px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #ccc9c9;
+            padding: 8px;
+        }
+
+        .in {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .clr {
+            clear: both;
+        }
+
+        .locationtop {
+            float: right;
+            height: 500px;
+            width: 550px;
+            margin-top: 80px;
+            margin-right: 50px;
+            background-color: gray;
+        }
+
+        .location {
+            height: 500px;
+            width: 550px;
+
+        }
+
+        .word {
+            float: left;
+            margin-top: 180px;
+            margin-left: 50px;
+            width: 650px;
+            height: 300px;
+            font-family: alegreya sans;
+        }
+
+        .p {
+            font-size: larger;
+        }
+
+        .total {
+            background-color: #f5f5f5;
+            width: 1345px;
+            height: 650px;
+            margin-top: 100px;
+        }
+
+        .footer {
+            height: 650px;
+            margin-top: 100px;
+            text-align: center;
+
+
+        }
+
+        .div {
+            width: 32.3%;
+            margin-right: 10px;
+            text-align: center;
+            display: inline-block;
+            background-color: white;
+            word-wrap: break-word;
+            padding-bottom: 20px;
+            font-family: alegreya sans;
+        }
+
+        .image {
+            width: 350px;
+            height: 300px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .inside {
+            width: 360px;
+            margin-right: 20px;
+            margin-left: 40px;
+        }
+
+        .h3 {
+            margin-bottom: 15px;
+        }
+
+        .h2 {
+            color: gray;
+            margin-top: 25px;
+            margin-bottom: 50px;
+            font-size: 15px;
+            font-family: alegreya sans;
+        }
+
+        .p1 {
+            font-size: 17px;
+        }
+        .totalmap{
+            height: 650px;
+            background-color: #f9f8f8;
+            margin-top: 30px ;
+        }
+
+        .divmap {
+            float: right;
+
+            height: 500px;
+            margin-right: 40px;
+            margin-top: 80px;
+        }
+
+        .mapword {
+            float: left;
+            
+            height: 420px;
+            width: 550px;
+            margin-left: 50px;
+            margin-top: 80px;
+        }
+        .maph2{
+            font-family: alegreya sans;
+            margin-bottom: 20px;
+        }
+        .mapp{
+            font-family: alegreya sans;
+            margin-top: 30px ;
+            margin-bottom: 20px;
+        }
+        .maph6{
+            margin-top: 40px ;
+            font-family: alegreya sans;
+            margin-bottom: 40px ;
+        }
+        .scroll{
+            width: 70px;
+            height: 70px ;
+            margin-top: 25px;
+        }
+        .mass{
+            width: 40px;
+            height: 40px;
+            border-radius: 50% ;
+            
+        }
+        .div1{
+            float: left;
+            background-color: #4a4a4a;
+            width: 25%;
+            height: 450px;
+            padding-left: 20px ;
+            padding-right: 20px;
+            padding-top: 50px;
+            color: #a2a09c;
+           
+        }
+        .cofeend{
+            width: 200px ;
+            height: 200px ;
+            margin-left: 460px ;
+            color: cornsilk;
+        }
+        .end1{
+            padding-top: 50px;
+            color: white;
+            background-color:#2d2c2c;
+            height: 400px;
+        }
+        .endimg{
+            width:50px;
+            height: 50px;
+            display: inline-block;
+            border-radius: 50%;
+            margin-left: 5px ;
+        }
+        .imgtotal1{
+            margin-left: 550px;
+        }
+        @media (max-width: 500px){
+           .coffeeimg{
+               width: 100%;
+           } 
+           .right{
+               width: 100%;
+           }
+        }
+        @media (min-width: 501px) {
+            .right{
+                color: blueviolet;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="start">
+        <div class="navbar">
+            <div class="divcoffe">
+                <img class="cofeee" src="cafe.png" alt="cofe" />
+                <h2 class="title">Coffee</h2>
+                <div class="clr"> </div>
+            </div>
+            <div class="divul">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>OurOffer</li>
+                    <li>Gallery</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="clr"> </div>
+        </div>
+        <h5 class="hh">Welcome to</h5>
+        <h1>Coffee Home</h1>
+        <h5>We're the biggest, best equipped and most advanced Home <br>in the greater Los Angeles area.</h5>
+        <button class="but" type="button">Learn More</button>
+        <button class="butt" type="button">Contact Us</button><br>
+        <img class="scroll" src="https://thisisarctic.com/wp-content/themes/kovabase/images/scroll-down.gif" alt="hhh">
+    </div>
+    <div class="coffeeimg">
+        <img src="coffee1.jpg" alt="coffee" class="contentimg">
+    </div>
+    <div class="right">
+        <h3>Who we are?</h3>
+        <p class="p">We have been operating for over 30 years and are Members of The Federation of Master Builders. We
+            work on
+            projects big and small from small residential extensions to full house. We are so happy with this theme.
+            Everyday it make our lives better.</p><br>
+        <img class="leaf" src="leaf.png" alt="leaf" />
+        <p class="in" style="display: inline-block; font-family: alegreya sans; margin-left: 15px;">We care about environment.</p><br>
+        <img src="group.png" class="group" alt="group" />
+        <p class="in" style="display: inline-block; font-family: alegreya sans; margin-left: 15px;">We are trusted by hundreds of clients.</p><br>
+        <img src="love.png" class="group" alt="love" />
+        <p class="in" style="display: inline-block; font-family: alegreya sans; margin-left: 15px;">Social media loves us!</p><br>
+        <img src="correct.png" class="group" alt="love" />
+        <p class="in" style="display: inline-block; font-family: alegreya sans; margin-left: 15px;">This list is super easy to create.</p><br>
+    </div>
+    <div class="clr"> </div>
+    <div class="total">
+        <div class="locationtop">
+            <img src="location.jpg" alt="location" class="location">
+        </div>
+        <div class="word">
+            <h2>Our Location</h2><br>
+            <p class="p">We have been operating for over 30 years and are Members of The Federation of Master Builders.
+                We work on
+                projects big and small from small residential extensions to full house. We are so happy with this theme.
+                Everyday it make our lives better.</p>
+            <p class="p">Story on projects big and small from small residential extensions to full house. We are so
+                happy with this
+                theme. Everyday it make our lives better.</p>
+        </div>
+    </div>
+    <div class="clr"> </div>
+    <div class="footer">
+        <h2>Our Drinks</h2>
+        <p class="h2">Learn more about them. We have worked truly hard to make them perfect for every use.</p>
+        <div class="div">
+            <img class="image" src="latte.jpg" alt="latte">
+            <div class="inside">
+                <h3 class="h3">Latte</h3>
+                <p class="p1">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper
+                    mauris velit a
+                    velit. Phasellus commodo turpis et lacinia posuere.</p>
+            </div>
+        </div>
+        <div class="div">
+            <img class="image" src="coffee.jpg" alt="latte">
+            <div class="inside">
+                <h3 class="h3">Coffee</h3>
+                <p class="p1">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper
+                    mauris velit a
+                    velit. Phasellus commodo turpis et lacinia posuere.</p>
+            </div>
+        </div>
+        <div class="div">
+            <img class="image" src="tee.jpg" alt="latte">
+            <div class="inside">
+                <h3 class="h3">Tee</h3>
+                <p class="p1">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper
+                    mauris velit a
+                    velit. Phasellus commodo turpis et lacinia posuere.</p>
+            </div>
+        </div>
+    </div>
+    <div class="totalmap">
+        <div class="divmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13821.02467647738!2d31.311093769775383!3d30.00079995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1602861812235!5m2!1sen!2seg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="mapword">
+            <h2 class="maph2">Contact Information</h2>
+            <p class="mapp">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <h6 class="maph6">Our contact details:</h6>
+            <img class="mass" src="icon.jpg" alt="icon" />
+            <p style="display: inline-block; font-family: alegreya sans; margin-left: 15px;">Manchester St 123-78B, Random 713, UK</p><br>
+            <img class="mass" src="mobil.jpg" alt="icon" />
+            <p style="display: inline-block; font-family: alegreya sans; margin-left: 15px;">+46 123 456 789</p><br>
+            <img class="mass" src="handfree.jpg" alt="icon" />
+            <p style="display: inline-block; font-family: alegreya sans; margin-left: 15px;">+46 123 456 789</p><br>
+            <img class="mass" src="massage1.jpg" alt="icon" />
+            <p style="display: inline-block; font-family: alegreya sans; margin-left: 15px;">hello@sitename.com</p><br>
+        </div>
+    </div>
+    <div>
+        <div class="div1">
+            <h4 style="margin-bottom: 20px; color:cornsilk;">About us</h4>
+            <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur. I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.</p>
+            <p>We are the champions! We are the most amazing theme of all time, yeah.</p>
+        </div>
+        <div class="div1">
+            <h4 style="margin-bottom: 20px; color:cornsilk;">Why we are special?</h4>
+            <p><span> > </span> Our magical recipe.</p>
+            <hr>
+            <p><span> > </span> We care about environment.</p>
+            <hr>
+            <p><span> > </span> We are trusted by hundreds of clients.</p>
+            <hr>
+            <p><span> > </span> Social media loves us!</p>
+            <hr>
+            <p><span> > </span> This list is super easy to create.</p>
+            
+        </div>
+        <div class="div1">
+            <h4 style="margin-bottom: 20px; color:cornsilk;">Opening Hours</h4>
+            <p><span> > </span> Monday 10AM - 9PM</p>
+            <hr>
+            <p><span> > </span> Tuesday 10AM - 9PM</p>
+            <hr>
+            <p><span> > </span> Wednesday 10AM - 9PM</p>
+            <hr>
+            <p><span> > </span> Thursday 10AM - 10PM</p>
+            <hr>
+            <p><span> > </span> Friday 10AM - 10PM</p>
+            <hr>
+            <p><span> > </span> Weekends 10AM - 11PM</p>
+  
+        </div>
+        <div class="div1">
+            <h4 style="margin-bottom: 20px; color:cornsilk;">Contact Details</h4>
+            <p><span> > </span> Manchester Road 123-78B, Silictown 7854MD, Great Country</p>
+            <hr>
+            <p><span> > </span> +46 123 456 789</p>
+            <hr>
+            <p><span> > </span> hello@sitename.com</p>
+            <hr>
+            <p><span> > </span> Social media loves us!</p>
+                
+        </div>
+    </div>
+    <div class="clr"> </div>
+    <div class="end1">
+        <img class="cofeend" src="cafe.png" alt="cofe"/>
+        <h2 style="font-size: 40px; font-family: alegreya sans; display: inline-block; margin-left: 20px;">Coffee Home</h2><br>
+        <p style="text-align: center; margin-top: 10px;">copyright 2017.All right reserved.</p>
+        <div class="imgtotal1">
+            <img class="endimg" src="facebook.jpg" alt="facebook" />
+            <img class="endimg" src="google.jpg" alt="facebook" />
+            <img class="endimg" src="linkedin.jpg" alt="facebook" />
+            <img class="endimg" src="twitter.jpg" alt="facebook" />
+        </div>
+    </div>
+</body>
+
+</html>
